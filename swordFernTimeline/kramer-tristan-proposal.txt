@@ -1,0 +1,121 @@
+Polystichum Munitum Mortality in Seward Park, Seattle Washington
+<p>
+
+Kramer Canup, Tristan O’Mara, Tim Billo, Paul Shannon, Lisa Ciecko, Nelson Salisbury, Philip O'Reilly
+Research Direction
+
+<p>
+Aims
+<p>
+The objectives of this research will be to investigate the extent and causes of mortality for the Polystichum munitum (sword fern) population in Seward Park. Specifically this study will examine:
+
+- What is the current boundary of ferns displaying symptoms of die off?
+- Is the die off spreading?
+- What are the ecological conditions (vegetative composition, soils, mountain beavers) associated with the die off?
+- What is causing the die off? (fungus, drought, animal disturbance, soil nutrients/chemical composition of soil)
+
+
+<h4>Hypothesis</h4>
+
+
+Ferns beyond the previously established boundary will be displaying symptoms of die off.
+The die off is spreading. Based on the observations from citizen science from 2013 to 2015, the fern die off has significantly increased in the past few years.
+The areas of die off will have abnormal vegetative composition, soil content and beavers will be active in some areas.
+Fungal pathogens, drought or a combined impact of these disturbances can be attributed to the die off seen in Seward Park
+
+<h4>Background</h4>
+
+See Narrative Summary: Autumn 2013 to present. Posted on Blogger.
+
+Methods of Data Collection
+<p>
+Transect and Fern Monitoring Methods
+<p>
+Using 20 randomized gps coordinates, we have configured the locations of our study plots. Each plot will be anywhere from 0- 750 meter away from the epicenter of the fern die off. Within the vegetative plots we will track the mortality and causes of mortality for Polystichum munitum within Seward Park. The health of each fern will be monitored and fungal samples will be taken from each plot along with soil samples to be analyzed in a lab.
+<p>
+Identifying fern mortality/ die back
+<p>
+
+Each individual fern will be mapped and tagged from within each plot as focal subjects to assess fern growth or mortality.
+<p>
+Categorize stages of fern die back by surveying four times per year, once in each season( November, February, May, August).
+<p>
+
+To monitor the die back and overall health of each plot with all of the ferns combined from within each plot we will monitor:
+<ul>
+<li>total percent cover of sword fern
+<li>take average of estimates provided by two surveyors
+<li>the percent of ferns that appear to be affected by the die off
+<li>they can be counted and calculated as # of healthy fern / total # of ferns in plot.
+<li>mid-canopy and upper canopy cover with species composition
+<li>take average of estimates provided by two surveyors
+</ul>
+
+Individual ferns displaying will be quantitatively monitored by:
+<ul>
+<li>number of live fronds per individual fern
+<li>count each individual live frond
+<li>% of upright standing fronds per individual fern
+<li>take average of estimates provided by two surveyors
+<li>Percent of browning or dead looking foliage on the fern
+<litake average of estimates provided by two surveyors
+Sori abundance will be taken by selecting five random fronds per individual and classifying, on a scale of 1-4, the percent of sori present on the top foot of the frond
+1: 0-25 (little to no sori present)
+2: 26-50 (some sori present)
+3: 51-75 (most of the sori is present)
+4: 76-100 (large, abundant amounts of sori present)
+
+Fungal sampling Methods
+
+
+Four different fungal pathogens have been found in the roots of ferns in the die off area. Fungal pathogens will be taken from ferns in healthy forest habitats as well as from the affected and ground zero zone to assess the impact of fungi on the ferns.  Fungal spores concentrations and diversity may be impacted by the changing of seasons and nutrient levels in the soil due to tree storing energy and carbohydrates in their roots in the fall and winter time.
+
+
+To fully quantify if fungal spores are responsible for the die off, fungal samples will be taken from the ferns during November, February, May and potentially August. Spore quantity and diversity will be assessed in relation to the different populations of fern species.
+
+
+Fern Collection: Waiting to configure until after we meet with Olaf and discuss analyzation protocols.
+Fern root samples will be taken from one fern per plot, as close as possible to the center of the plot. Samples will be taken by cutting
+Fungal analysis: Samples will be analyzed using PCR and molecular techniques to determine the specific fungi and abundance in each fern.
+
+Soil Sampling Methods
+
+
+Drought could be contributing stress on the sword fern population, which could be exacerbating and compounding the stress imposed by other factors such as fungal infections. Ultimately, drought induced stress could be playing a significant role 
+
+soil moisture (use a drying oven to assess water loss from soil)
+pH, nitrogen, potash and phosphorus will be sampled using a soil test kit
+We may be able to send some samples into the Department of King County for free to assess the accuracy of our soil kit
+
+
+Mountain Beaver Monitoring Methods
+
+
+Mountain beavers have been found nesting in multiple locations within the die off zone. They are known to eat fern fronds and roots (Link 2005). Most of their feeding occurs above ground and within 15 meters of their burrows Campbell 2005). Mountain beavers create extensive burrows that can also impact soil structure (Link 2005). For now we look to quantify the presence of mountain beavers near our study sites through:
+
+
+Counting the number of dens within a 10m radius from the center of each plot.
+Camera Traps will be set up in our plots, (Two at a time). Traps will be left for a 1 week at a time and moved to plots in varying locations within our grid.
+Mountain beavers are mostly active during dusk and dawn (Link 2005). In person terrestrial observations could be done to assess animal disturbances in our plots. In person observations should be taken at random plots at various times throughout the day to assess activity level.
+
+
+
+Cost Estimates
+Stakes: 120 total. Come in packs of 12 for 3.30$. 10 packs x 3.30 = 33$
+Fungal lab tests: 30x 60$= 1800$
+Soil test kits: 2x 20$= 40$
+Soil lab tests: Not relevant yet
+Other Materials:
+Compass
+Tape Measure
+Light sensor?
+
+Sources
+
+
+Campbell D. 2005. Mountain Beavers and Control of Mountain Beaver Damage. ICWDM.org
+
+Link R. 2005. Living with Wildlife Mountain Beavers. Washington Department of Fish and Wildlife. http://wdfw.wa.gov/living/mtn_beavers.pdf.
+
+
+
