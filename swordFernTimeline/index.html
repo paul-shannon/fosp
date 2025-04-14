@@ -28,6 +28,54 @@ details{
   margin-top: 10px;
   }
 
+details>summary {
+  list-style-type: none;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #eee;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+details>summary::-webkit-details-marker {
+  display: none;
+}
+
+details>summary::before {
+  content: '+';
+  font-family: 'Menlo', 'Lucida Console', 'Monaco', 'Consolas', monospace;
+  background-color: lightgray;
+  width: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 10px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+details[open]>summary::before {
+  content: '-';
+  font-family: 'Menlo', 'Lucida Console', 'Monaco', 'Consolas', monospace;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 10px;
+  width: 50px;
+  background-color: lightgray;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+details[open]>summary {
+  margin-bottom: 0.5rem;
+  //padding-left: 30px;
+  //background-color: lightgray;
+
+}
+
+.monospace{
+  font-family: 'Menlo', 'Lucida Console', 'Monaco', 'Consolas', monospace;
+  }
+
 </style>
 
   
@@ -36,9 +84,10 @@ details{
 <h3>Sword Fern Research Timeline 2013-2025</h3>
 
 <blockquote>
-This last lovely pure stand of sword ferns at Seward Park, on the Windfall Trail,
-lost a few plants in 2020. <br> Death moves steadily upslope,
-cause still unknown.
+One of the last large pure stands of sword ferns at Seward Park.
+<br>Four plants died in 2020.
+<br>Death moves upslope year by year.
+<br>Cause unknown.
 </blockquote>
 <video width="600" controls preload muted>
   <source src="https://sewardpark.org/wp-content/uploads/2025/03/windFallTrailExpandedMovie-withTitles.mov">
@@ -47,6 +96,7 @@ cause still unknown.
 
 <details>
   <summary><b>2013 Autumn</b> - Catherine Alexander's Initial Report
+  <a id="001"></a>
   </summary>
   <div class="details-body">
 The sword fern die-off was first noticed by Catherine Alexander (naturalist and daily visitor to Seward) in the autumn of 2013.  Here is her account, offered on  October 28th, 2014:
@@ -72,6 +122,7 @@ is in the clear, at least this time.
 
 <details>
   <summary><b>2014 October</b> - video walkthrough of Ground Zero
+  <a id="002"></a>
   </summary>
   <div class="details-body">
   
@@ -90,6 +141,7 @@ is in the clear, at least this time.
 
 <details>
   <summary><b>2014 November</b> - Seattle Parks staff visit affected area
+  <a id="003"></a>
   </summary>
   <div class="details-body">
 
@@ -112,6 +164,7 @@ and into the present.
 
 <details>
   <summary><b>2014 December</b> - Jenny Glass Report
+  <a id="004"></a>
   </summary>
   <div class="details-body">
 
@@ -143,6 +196,7 @@ for the occurrence of this dying patch of plants.
 
 <details>
   <summary><b>2015 May</b> - Dr. Olaf Ribiero, Plant Pathologist
+  <a id="005"></a>
   </summary>
   <div class="details-body">
 
@@ -180,6 +234,7 @@ difficult pathogen to control.
 
 <details>
   <summary><b>2015-2016</b>: Dr. Tim Billo and students: 20 monitoring plots
+  <a id="006"></a>
   </summary>
   <div class="details-body">
 
@@ -202,6 +257,7 @@ and Kramer Canup) ran a six-month monitoring project.
 
 <details>
   <summary><b>2015 October</b> - email exchange with Dr. Robbin Moran
+  <a id="007"></a>
   </summary>
   <div class="details-body">
 
@@ -225,6 +281,7 @@ insight into the problem.
 
 <details>
   <summary><b>2015 November</b> -  Dr. Marianne Elliott and Jenny Glass: the Phytophthora hypothesis
+  <a id="008"></a>
   </summary>
   <div class="details-body">
 
@@ -295,6 +352,7 @@ Thus we have a conjecture, a  hypothesis,  and the good fortune to also have exp
 
 <details>
   <summary><b>2017 February</b> - email from Dr. David Barrington
+  <a id="009"></a>
   </summary>
   <div class="details-body">
 
@@ -350,6 +408,7 @@ Vermont, now (2025) emeritus.  Robbin Moran identified him as the
 
 <details>
   <summary><b>2017 February</b> - the drought/climate change hypotheses
+  <a id="010"></a>
   </summary>
 
   <div class="details-body">
@@ -532,6 +591,7 @@ perhaps abetted by weather and climate, makes much more sense.
 
 <details>
   <summary><b>2017 April</b> - The die-off jumps the sqebeqsed trail
+  <a id="011"></a>
   </summary>
   <div class="details-body">
   <img src="img/sqebeqsed-jump.png" width=800>
@@ -541,6 +601,7 @@ perhaps abetted by weather and climate, makes much more sense.
 
 <details>
   <summary><b>2017 April</b> - New sample collection with Marianne Elliott
+  <a id="012"></a>
   </summary>
   <div class="details-body">
   <img src="img/marianne-1.png" width=800>
@@ -553,6 +614,7 @@ perhaps abetted by weather and climate, makes much more sense.
 
 <details>
   <summary><b>2017 May</b> - Hatchery Valley Before and After
+  <a id="013"></a>
   </summary>
   <div class="details-body">
    <img src="img/2011-2017-hatcheryValley.png" width=800>
@@ -571,6 +633,7 @@ perhaps abetted by weather and climate, makes much more sense.
 
 <details>
   <summary><b>2017 June</b> - Soil Tests
+  <a id="014"></a>
   </summary>
   <div class="details-body">
 
@@ -600,6 +663,7 @@ Nothing useful came out of this small project.
 
 <details>
   <summary><b>2017 July</b> - Regional Map of Candidate and Confirmed Sites
+  <a id="015"></a>
   </summary>
   <div class="details-body">
 
@@ -618,6 +682,7 @@ have waxed and waned over the years.  Community reports via <a href="https://www
 
 <details>
   <summary><b>2017-2018</b> Fort Worden State Park, Decline & Recovery
+  <a id="016"></a>
   </summary>
   <div class="details-body">
     <h3>2017 October: die-off report</h3>
@@ -631,6 +696,7 @@ have waxed and waned over the years.  Community reports via <a href="https://www
 
 <details>
   <summary><b>2018 January</b>: The 36-fern (3x12) fern experiment begins
+  <a id="017"></a>
   </summary>
   <div class="details-body">
 
@@ -693,6 +759,7 @@ All 24 GZ ferns are in good health, producing new fronds each year.
 
 <details>
   <summary><b>2018 July</b> - Miniscule resprouting fronds
+  <a id="018"></a>
   </summary>
   <div class="details-body">
    <img src="img/miniscule-resprouting.png" width=800>
@@ -703,6 +770,7 @@ All 24 GZ ferns are in good health, producing new fronds each year.
 
 <details>
   <summary><b>2018 July</b> - Port Ludlow Die-off History 2008-2018
+  <a id="019"></a>
   </summary>
   <div class="details-body">
 
@@ -745,6 +813,7 @@ If you find any solution to the die-off, please let us know as soon as possible.
 
 <details>
   <summary><b>2018 Autumn</b> - Dr. Rodrigo Valverde, LSU plant virologist
+  <a id="o20"></a>
   </summary>
 
   <div class="details-body">
@@ -812,6 +881,7 @@ spots. However I did not see any ferns with die-off symptoms.
 
 <details>
   <summary><b>2018 September</b> - Ecophysiology Study, Kildisheva et al.
+  <a id="022"></a>
   </summary>
   <div class="details-body">
 
@@ -855,6 +925,7 @@ physiological approach.
 
 <details>
   <summary><b>2018 October</b> - the beer bottle experiment.
+  <a id="023"></a>
   </summary>
 
 <div class="details-body"> An informal experiment suggests
@@ -885,6 +956,7 @@ The relevant section starts at 11 minutes, 10 seconds.
 
 <details>
   <summary><b>2019 March</b> - First (and only) signs of natural regeneration at Ground Zero.
+  <a id="024"></a>
   </summary>
   <div class="details-body">
 
@@ -909,6 +981,7 @@ The relevant section starts at 11 minutes, 10 seconds.
 
 <details>
   <summary><b>2019 March</b> - Seattle Times Magazine story
+  <a id="025"></a>
   </summary>
   <div class="details-body">
 
@@ -931,6 +1004,7 @@ Read the story from the <a href="https://www.seattletimes.com/pacific-nw-magazin
 
 <details>
   <summary><b>2019 May</b> -  A study of the 20 out of 215 (9%) of ferns that survived at Ground Zero
+  <a id="026"></a>
   </summary>
   <div class="details-body">
 
@@ -961,6 +1035,7 @@ Mendenhall did the analysis.  Results are summarized below the map.
 
 <details>
   <summary><b>2019 May</b> - Crozier Study, David Perasso
+  <a id="027"></a>
   </summary>
   <div class="details-body">
 
@@ -1001,6 +1076,7 @@ other die off locations before we conclude that this is a symptom of the Seward 
 
 <details>
   <summary><b>2019 June</b> $8000 donation from Seattle's 100 Women Who Care
+  <a id="028"></a>
   </summary>
   <div class="details-body">
 <p>
@@ -1021,6 +1097,7 @@ See these projects described below:
 
 <details>
   <summary><b>2019 November</b> - Greenhouse Transmission Experiment, Dylan, Marianne, Paul
+  <a id="029"></a>
   </summary>
   <div class="details-body">
 
@@ -1065,6 +1142,7 @@ active die-off site in Seward Park
 
 <details>
   <summary><b>2020 January</b> - Dead fern mapping at Seward
+  <a id="030"></a>
   </summary>
   <div class="details-body">
 
@@ -1096,6 +1174,7 @@ The northern end of the bounded region still shows less than typical die-off.
 
 <details>
   <summary><b>2020 August</b> - the Doty Report
+  <a id="031"></a>
   </summary>
   <div class="details-body">
 
@@ -1177,6 +1256,7 @@ Our concerns included:
 
 <details>
   <summary><b>2020 September</b> - Sword Fern Microbiome Project: Preliminary Findings, Haven Ecology
+  <a id="032"></a>
   </summary>
   <div class="details-body">
 <h5>Prepared for the Friends of Seward Park, by Dylan Mendenhall and Andres Barrera</h5>
@@ -1211,6 +1291,7 @@ moisture content.
 
 <details>
   <summary><b>2020 October</b> - Die-off hits an old pure stand of ferns, one of the last unaffected
+  <a id="033"></a>
   </summary>
   <div class="details-body">
    <img src="img/highGround-firstDeaths.png" width=800>
@@ -1225,6 +1306,7 @@ moisture content.
 
 <details>
   <summary><b>2021 March</b> - Endophyte DNA Sequencing, Mendenhall & Lekberg
+  <a id="034"></a>
   </summary>
   <div class="details-body">
 Ecologist Dr. Ylva Lekberg of
@@ -1247,6 +1329,7 @@ Lekberg and Dupre's final report is available <a href="docs/Swordfern_report_ylv
 
 <details>
   <summary><b>2024 January</b>-  Daniel Harm's Film
+  <a id="035"></a>
   </summary>
    <div class="details-body">
    <h4> 18 minute version</h4>
@@ -1260,6 +1343,7 @@ Lekberg and Dupre's final report is available <a href="docs/Swordfern_report_ylv
 
 <details>
   <summary><b>2025 March</b> - iNaturalist Sword Fern Die-off Project
+  <a id="036"></a>
   </summary>
   <div class="details-body">
  Community reports via <a href="https://www.inaturalist.org/projects/western-sword-fern-decline-in-the-pacific-northwest"
@@ -1270,6 +1354,7 @@ iNaturalist</a> provide our best current sense of the regional spread.
 
 <details>
   <summary><b>2025 March</b> - A introduction to the problem for Seward Park visitors
+  <a id="037"></a>
   </summary>
   <div class="details-body">
    This is still in draft form, with improvements coming soon.  Viewer beware!
@@ -1278,16 +1363,17 @@ iNaturalist</a> provide our best current sense of the regional spread.
    <p>
    FoSP will soon place this poster into one or more of the Seward Park kiosks.
 <p>
-<img src="img/fernPoster.png" width=800>
+<img src="img/image001.png" width=800>
 <p>
    The QR code points to this
    
-   <a href="https://pshannon.net/swordFernIntro/"
+   <a href="https://sewardpark.org/sword-fern-die-off-overview/"
    target="_blank">website</a>.
 
   </div>
 </details>
 
+<div style="height: 800px;"></div>
 
 
 
