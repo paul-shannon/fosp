@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <title>Fern Reports</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+      function readFernData(){
+         console.log("entering readFernData")
+         $.getJSON( "fernReports.json", function(json) {
+             window.reports = json
+         })
+       .done(function(){
+          console.log("getJSON done")
+          console.log("fern count: " + window.reports.length)
+          })
+       .fail(function(){
+          console.log("getJSON failure")
+       })
+     } // readFernData
+
+
+// await readTreeData()
+
+$(document).ready(function(){
+  readFernData()
+  });
+
+//------------------------------------------------------------
+function initMap() {
+    debugger;
+   var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 10,
+        center: {lat: 47.2277, lng: -122.3555},
+        mapTypeId: google.maps.MapTypeId.TERRAIN
+    });
+
+   const icon = {path: google.maps.SymbolPath.CIRCLE,
+                 scale: 10,
+                 fillOpacity: 1,
+                 strokeWeight: 1,
+                  fillColor: "brown", //calculateHealthColor(tree),
+                     strokeColor: '#000',
+                     }
+
+       let marker = new google.maps.Marker({
+           position: {lat:  47.53401, lng: -122.2946},
+           map,
+           title: "fubar",
+           icon: icon
+       })
+      drawFerns(map)
+      } // initMap
+//------------------------------------------------------------
+async function drawFerns(map){
+  await readFernData();
+  console.log("report count: " + window.reports.length)
+  /*******/
+  window.report.forEach(function(report){
+      var size = 5; //tree["dbh"]/2;
+      if(size < 5){
+         size = 5;
+         }
+       const icon = {path: google.maps.SymbolPath.CIRCLE,
+                     scale: size,
+                     fillOpacity: 1,
+                     strokeWeight: 1,
+                     fillColor: calculateHealthColor(tree),
+                     strokeColor: '#000',
+                     }
+       let marker = new google.maps.Marker({
+           position: {lat:  report["lat"], lng: report["lon"]},
+           map,
+           //title: tree["id"].toString(),
+           icon: icon
+       })
+  })// forEach
+    /*****/
+    } // drawFerns
+                  
+//------------------------------------------------------------
+
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkGwPVB2OLaBmQjLQvkoLv5M1ZQU64V7A&callback=initMap">
+    </script>
+  </body>
+</html>

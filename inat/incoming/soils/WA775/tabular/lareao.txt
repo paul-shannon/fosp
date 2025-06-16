@@ -1,0 +1,4 @@
+"County or Parish"|"WA033"|"King"||"10507"|"577884"
+"MLRA"|"2"|"Willamette and Puget Sound Valleys"||"10507"|"577885"
+"Non-MLRA Soil Survey Area"|"WA775"|"City of Seattle, Washington"||"10507"|"577886"
+"State or Territory"|"WA"|"Washington"||"10507"|"577887"

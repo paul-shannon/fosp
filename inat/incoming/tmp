@@ -1,0 +1,145 @@
+     1	id                                                         1   10924100                                                                                                                                                                                                
+     2	uuid                                                       2   dc65b1e1-c4a0-428c-a44e-fa8f1791bead                                                                                                                                                                    
+     3	observed_on_string                                         3   2014-01-01                                                                                                                                                                                              
+     4	observed_on                                                4   2014-01-01                                                                                                                                                                                              
+     5	time_observed_at                                           5                                                                                                                                                                                                           
+     6	time_zone                                                  6   Pacific Time (US & Canada)                                                                                                                                                                              
+     7	user_id                                                    7   850860                                                                                                                                                                                                  
+     8	user_login                                                 8   paul-shannon                                                                                                                                                                                            
+     9	user_name                                                  9   ""                                                                                                                                                                                                      
+    10	created_at                                                10   2018-04-14 22:32:28 UTC                                                                                                                                                                                 
+    11	updated_at                                                11   2024-01-12 23:39:16 UTC                                                                                                                                                                                 
+    12	quality_grade                                             12   research                                                                                                                                                                                                
+    13	license                                                   13   CC-BY-NC                                                                                                                                                                                                
+    14	url                                                       14   https://www.inaturalist.org/observations/10924100                                                                                                                                                       
+    15	image_url                                                 15   https://inaturalist-open-data.s3.amazonaws.com/photos/15376619/medium.jpeg                                                                                                                              
+    16	sound_url                                                 16                                                                                                                                                                                                           
+    17	tag_list                                                  17   "tags                                                                                                                                                                                                   
+    18	description                                               18    class-bulkobservationfile-user_id-850860-filename-test0-csv-project_id-19290-2018-04-14 15:32:28 -0700.csv"                                                                                            
+    19	num_identification_agreements                             19   0.25 acres; first observation                                                                                                                                                                           
+    20	num_identification_disagreements                          20   1                                                                                                                                                                                                       
+    21	captive_cultivated                                        21   0                                                                                                                                                                                                       
+    22	oauth_application_id                                      22   false                                                                                                                                                                                                   
+    23	place_guess                                               23                                                                                                                                                                                                           
+    24	latitude                                                  24   "King County                                                                                                                                                                                            
+    25	longitude                                                 25    US-WA                                                                                                                                                                                                  
+    26	positional_accuracy                                       26    US"                                                                                                                                                                                                    
+    27	private_place_guess                                       27   47.534009142                                                                                                                                                                                            
+    28	private_latitude                                          28   -122.2945876106                                                                                                                                                                                         
+    29	private_longitude                                         29                                                                                                                                                                                                           
+    30	public_positional_accuracy                                30   Seward Park                                                                                                                                                                                             
+    31	geoprivacy                                                31   47.555546                                                                                                                                                                                               
+    32	taxon_geoprivacy                                          32   -122.248967                                                                                                                                                                                             
+    33	coordinates_obscured                                      33   26839                                                                                                                                                                                                   
+    34	positioning_method                                        34   obscured                                                                                                                                                                                                
+    35	positioning_device                                        35                                                                                                                                                                                                           
+    36	place_town_name                                           36   true                                                                                                                                                                                                    
+    37	place_county_name                                         37                                                                                                                                                                                                           
+    38	place_state_name                                          38                                                                                                                                                                                                           
+    39	place_country_name                                        39                                                                                                                                                                                                           
+    40	place_admin1_name                                         40   King                                                                                                                                                                                                    
+    41	place_admin2_name                                         41   Washington                                                                                                                                                                                              
+    42	species_guess                                             42   United States                                                                                                                                                                                           
+    43	scientific_name                                           43   Washington                                                                                                                                                                                              
+    44	common_name                                               44   King                                                                                                                                                                                                    
+    45	iconic_taxon_name                                         45   western sword fern                                                                                                                                                                                      
+    46	taxon_id                                                  46   Polystichum munitum                                                                                                                                                                                     
+    47	field:dbh (inches)                                        47   western sword fern                                                                                                                                                                                      
+    48	field:dmr.1                                               48   Plantae                                                                                                                                                                                                 
+    49	field:dmr.2                                               49   47751                                                                                                                                                                                                   
+    50	field:dmr.3                                               50                                                                                                                                                                                                           
+    51	field:estimated height of tree (ft)                       51                                                                                                                                                                                                           
+    52	field:notes                                               52                                                                                                                                                                                                           
+    53	field:number of additional unhealthy trees (of same sp    53                                                                                                                                                                                                           ecies) in area (within sight)
+    54	field:optional - aspect or direction the slope is faci    54                                                                                                                                                                                                           ng
+    55	field:optional - can we follow up with you?               55                                                                                                                                                                                                           
+    56	field:optional - estimated time spent to make this obs    56                                                                                                                                                                                                           ervation (# of minutes)
+    57	field:optional - site hydrology                           57                                                                                                                                                                                                           
+    58	field:optional - site type                                58                                                                                                                                                                                                           
+    59	field:optional - site/area disturbance level              59                                                                                                                                                                                                           
+    60	field:optional - site/location description                60                                                                                                                                                                                                           
+    61	field:optional - slope position                           61                                                                                                                                                                                                           
+    62	field:optional - timing of symptoms estimate              62                                                                                                                                                                                                           
+    63	field:optional - tree canopy transparancy                 63                                                                                                                                                                                                           
+    64	field:optional - tree size                                64                                                                                                                                                                                                           
+    65	field:optional - were there any other unhealthy plant     65                                                                                                                                                                                                           species on the site?
+    66	field:optional - what 'other factors' were observed?      66                                                                                                                                                                                                           
+    67	"field:other factors - are there signs or symptoms of     67                                                                                                                                                                                                           insect
+    68	 diseases                                                 68                                                                                                                                                                                                           
+    69	 or other damage?"                                        69                                                                                                                                                                                                           
+    70	field:percent canopy affected (%)                         70                                                                                                                                                                                                           
+    71	field:percent of trees (of same species) within sight     71                                                                                                                                                                                                           that are unhealthy
+    72	field:tree canopy symptoms                                72                                                                                                                                                                                                           
+     1	10924100                                                  73                                                                                                                                                                                                           
+     2	dc65b1e1-c4a0-428c-a44e-fa8f1791bead
+     3	2014-01-01
+     4	2014-01-01
+     5	
+     6	Pacific Time (US & Canada)
+     7	850860
+     8	paul-shannon
+     9	""
+    10	2018-04-14 22:32:28 UTC
+    11	2024-01-12 23:39:16 UTC
+    12	research
+    13	CC-BY-NC
+    14	https://www.inaturalist.org/observations/10924100
+    15	https://inaturalist-open-data.s3.amazonaws.com/photos/15376619/medium.jpeg
+    16	
+    17	"tags
+    18	 class-bulkobservationfile-user_id-850860-filename-test0-csv-project_id-19290-2018-04-14 15:32:28 -0700.csv"
+    19	0.25 acres; first observation
+    20	1
+    21	0
+    22	false
+    23	
+    24	"King County
+    25	 US-WA
+    26	 US"
+    27	47.534009142
+    28	-122.2945876106
+    29	
+    30	Seward Park
+    31	47.555546
+    32	-122.248967
+    33	26839
+    34	obscured
+    35	
+    36	true
+    37	
+    38	
+    39	
+    40	King
+    41	Washington
+    42	United States
+    43	Washington
+    44	King
+    45	western sword fern
+    46	Polystichum munitum
+    47	western sword fern
+    48	Plantae
+    49	47751
+    50	
+    51	
+    52	
+    53	
+    54	
+    55	
+    56	
+    57	
+    58	
+    59	
+    60	
+    61	
+    62	
+    63	
+    64	
+    65	
+    66	
+    67	
+    68	
+    69	
+    70	
+    71	
+    72	
+    73	                                                                                                                                                                                                        
